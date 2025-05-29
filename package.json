@@ -1,6 +1,6 @@
 {
-  "name": "portfolio-website",
-  "private": true,
+  "name": "aliasgher5252.github.io",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://aliasgher5252.github.io/",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "echo > dist/.nojekyll && gh-pages -d dist"
   },
   "dependencies": {
     "@react-spring/web": "^10.0.1",
