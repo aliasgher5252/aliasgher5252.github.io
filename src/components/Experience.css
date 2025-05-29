@@ -1,0 +1,135 @@
+.experience {
+  padding: 80px 0;
+  background: var(--color-background);
+}
+
+.experience-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.experience h2 {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  text-align: center;
+  color: var(--color-text);
+}
+
+.experience-timeline {
+  position: relative;
+  padding-left: 30px;
+}
+
+.experience-timeline::before {
+  content: '';
+  position: absolute;
+  left: 15px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--color-primary);
+}
+
+.experience-item {
+  position: relative;
+  margin-bottom: 40px;
+  background: var(--color-surface);
+  border-radius: 12px;
+  padding: 25px;
+  margin-left: 25px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--color-border);
+}
+
+.experience-item::before {
+  content: '';
+  position: absolute;
+  left: -37px;
+  top: 25px;
+  width: 12px;
+  height: 12px;
+  background: var(--color-primary);
+  border-radius: 50%;
+  border: 3px solid var(--color-background);
+}
+
+.experience-header {
+  margin-bottom: 15px;
+}
+
+.experience-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 5px;
+}
+
+.experience-company {
+  font-size: 1.1rem;
+  color: var(--color-primary);
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.experience-period {
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+}
+
+.experience-description {
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.experience-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-tag {
+  background: var(--color-primary);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .experience {
+    padding: 60px 0;
+  }
+  
+  .experience h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .experience-timeline {
+    padding-left: 20px;
+  }
+  
+  .experience-timeline::before {
+    left: 10px;
+  }
+  
+  .experience-item {
+    padding: 20px;
+    margin-left: 15px;
+  }
+  
+  .experience-item::before {
+    left: -27px;
+  }
+  
+  .experience-title {
+    font-size: 1.1rem;
+  }
+  
+  .experience-company {
+    font-size: 1rem;
+  }
+}

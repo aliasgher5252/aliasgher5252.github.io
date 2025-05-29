@@ -1,0 +1,256 @@
+/* Work Experience Section Styles */
+.work-experience {
+  padding: 6rem 0;
+  background: var(--color-background);
+  position: relative;
+}
+
+.work-experience .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.work-experience .section-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.work-experience .section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: 1rem;
+}
+
+.work-experience .section-subtitle {
+  font-size: 1.2rem;
+  color: var(--color-text-secondary);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.work-timeline {
+  position: relative;
+  margin: 2rem 0;
+}
+
+.work-experience-card {
+  display: flex;
+  margin-bottom: 3rem;
+  position: relative;
+  background: var(--color-card-background);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: var(--shadow-card);
+  border: 1px solid var(--color-border);
+  transition: all 0.3s ease;
+}
+
+.work-experience-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-card-hover);
+}
+
+.work-timeline-dot {
+  position: absolute;
+  left: -2rem;
+  top: 2rem;
+  width: 16px;
+  height: 16px;
+  background: var(--color-primary);
+  border-radius: 50%;
+  border: 3px solid var(--color-background);
+  z-index: 2;
+}
+
+.work-timeline-line {
+  position: absolute;
+  left: -1.5rem;
+  top: 3rem;
+  width: 2px;
+  height: calc(100% + 1rem);
+  background: var(--color-border);
+  z-index: 1;
+}
+
+.work-experience-content {
+  flex: 1;
+  padding-left: 1rem;
+}
+
+.work-experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.work-company-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.work-company-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 1px solid var(--color-border);
+}
+
+.work-job-details h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-bottom: 0.25rem;
+}
+
+.work-company-name {
+  font-size: 1.1rem;
+  color: var(--color-primary);
+  font-weight: 500;
+}
+
+.work-job-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+  text-align: right;
+}
+
+.work-location, .work-duration {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+}
+
+.work-location svg, .work-duration svg {
+  width: 16px;
+  height: 16px;
+}
+
+.work-job-description {
+  margin-bottom: 1.5rem;
+}
+
+.work-job-description p {
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.work-achievements {
+  margin-bottom: 1.5rem;
+}
+
+.work-achievements h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-bottom: 0.75rem;
+}
+
+.work-achievements ul {
+  list-style: none;
+  padding: 0;
+}
+
+.work-achievements li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+}
+
+.work-achievements li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+.work-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.work-tech-tag {
+  background: var(--color-primary);
+  color: var(--color-background);
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .work-experience {
+    padding: 4rem 0;
+  }
+
+  .work-experience .container {
+    padding: 0 1rem;
+  }
+
+  .work-experience .section-title {
+    font-size: 2rem;
+  }
+
+  .work-experience-card {
+    margin-left: 2rem;
+    padding: 1.5rem;
+  }
+
+  .work-timeline-dot {
+    left: -1.5rem;
+  }
+
+  .work-timeline-line {
+    left: -1rem;
+  }
+
+  .work-experience-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .work-job-meta {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .work-company-info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .work-experience-card {
+    margin-left: 1.5rem;
+    padding: 1rem;
+  }
+
+  .work-timeline-dot {
+    left: -1rem;
+    width: 12px;
+    height: 12px;
+  }
+
+  .work-timeline-line {
+    left: -0.75rem;
+  }
+}
