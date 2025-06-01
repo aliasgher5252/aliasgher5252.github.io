@@ -83,7 +83,7 @@
     "id": 4,
     "title": "Visualizer AI",
     "description": "Developed fast, high-accuracy algorithms for computing perspective transforms in indoor scenes using semantic scene understanding.",
-    "longDescription": "I designed and implemented advanced algorithms to compute perspective transforms of structural elements—such as walls, floors, and countertops—in 2D indoor images. These algorithms leverage semantic scene understanding to interpret and localize key planar surfaces with high accuracy. Despite being built from scratch, the solution matched the performance of industry benchmarks that had been under development for over five years. Notably, my implementation achieved a 3x speed improvement, making it highly suitable for real-time applications like interior modeling, AR, and robotics. The approach was optimized for both precision and efficiency, balancing computational cost with semantic depth. This project demonstrates a strong ability to innovate and compete at a production-grade level in computer vision.",
+    "longDescription": "I designed and implemented advanced algorithms to compute perspective transforms of structural elements—such as walls, floors, and countertops—in 2D indoor images. These algorithms leverage semantic scene understanding to interpret and localize key planar surfaces with high accuracy. Despite being built from scratch, the solution matched the performance of industry benchmarks that had been under development for over five years. Notably, my implementation achieved a 3x speed improvement, making it highly suitable for real-time applications like interior modeling, AR, and robotics. The approach was optimized for both precision and efficiency, balancing computational cost with semantic depth. This project demonstrates a strong ability to innovate and compete at a production-grade level in computer vision. \n Disclaimer: Project's IP belongs to https://sketricsolutions.com",
     "technologies": ["Python", "Ultralytics", "OpenCV", "Pillow"],
     "category": "Computer Vision",
     "featured": false,
@@ -98,7 +98,7 @@
     "status": "Completed",
     "date": "2025-02-01",
     "duration": "7 days",
-    "team": "Solo",
+    "team": "Sketric Solutions",
     "highlights": [
       "Perspective transform computation using semantic scene understanding",
       "3x faster than industry-standard solutions with comparable accuracy",
