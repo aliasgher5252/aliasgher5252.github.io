@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Bachelors of Engineering in Electrical Engineering",
+    "institution": "National University of Sciences and Technology",
+    "location": "Islamabad, Pakistan",
+    "startDate": "2020-10-01",
+    "endDate": "2024-05-31",
+    "gpa": "3.80/4.0",
+    "honors": ["NUST High Achievers Award 2022-2024", "NUST Merit Based GPA Scholarship 3rd - 6th Semester"],
+    "relevant_courses": [
+      "Data Structures & Algorithms",
+      "Artificial Intelligence",
+      "Computer Vision",
+      "Robotics",
+      "Object Oriented Programming",
+      "Fundamentals of Programming"
+    ],
+    "projects": [
+      "Final Year Project: AquaGuard (Drowning rescue Unmanned Aerial Vehicle) ",
+      "OOP Capstone: Hostel Mess Management",
+      "Computer Vision: Room Visualizer"
+    ],
+    "logo": "/assets/logos/nust-logo.png"
+  }
+]

@@ -1,0 +1,22 @@
+{  "personalInfo": {
+    "name": "Ali Asgher",
+    "title": "Machine Learning Engineer",
+    "email": "aliasgher.upwork@gmail.com",
+    "phone": "+92 332 8041453",
+    "location": "Karachi, Pakistan",
+    "bio": "Passionate AI Engineer with 3+ years of experience building modern AI solutions. I love orchestrating cutting-edge AI workflows and robust backend systems that solve real-world problems.",
+    "avatar": "/assets/avatar/avatar.png",
+    "resume": "/assets/documents/resume.pdf"
+  },  "social": {
+    "github": "https://github.com/aliasgher5252",
+    "linkedin": "https://www.linkedin.com/in/aliasgher5252/",
+    "portfolio": "https://aliasgher.dev"
+  },
+  "skills": {
+    "languages": ["Python", "C/C++"],
+    "backend": ["Django", "Flask", "FastAPI", "Bottle", "Tornado"],
+    "generative": ["OpenAI", "Deepseek", "AI Chatbots", "Agentic AI", "LangChain", "LangGraph"],
+    "tools": ["AWS", "Docker", "Azure"],
+    "computervision": ["OpenCV", "Ultralytics", "Pillow", "Pytorch", "TensorFlow", "Open3D"]
+  }
+}

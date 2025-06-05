@@ -1,0 +1,81 @@
+[
+  {
+    "id": 1,
+    "name": "Neural Networks and Deep Learning",
+    "issuer": "DeepLearning.ai",
+    "date": "2023-07-10",
+    "expiryDate": null,
+    "credentialId": "ALEQJPQ36PP9",
+    "verificationUrl": "https://coursera.org/verify/ALEQJPQ36PP9",
+    "badge": "/assets/logos/deeplearning-logo.jpg",
+    "skills": ["Artificial Neural Networks", "Deep Learning", "Computer Programming", "Machine Learning Algorithms"]
+  },
+  {
+    "id": 2,
+    "name": " Structuring Machine Learning Projects",
+    "issuer": "DeepLearning.ai",
+    "date": "2023-08-05",
+    "expiryDate": null,
+    "credentialId": "ALEQJPQ36PP9",
+    "verificationUrl": "https://coursera.org/verify/ALEQJPQ36PP9",
+    "badge": "/assets/logos/deeplearning-logo.jpg",
+    "skills": ["Deep Learning", "Applied Machine Learning", "Data Analysis"]
+  },
+  {
+    "id": 3,
+    "name": "Convolutional Neural Networks",
+    "issuer": "DeepLearning.ai",
+    "date": "2023-08-12",
+    "expiryDate": null,
+    "credentialId": "RRMDZGRQPJ58",
+    "verificationUrl": "https://coursera.org/verify/RRMDZGRQPJ58",
+    "badge": "/assets/logos/deeplearning-logo.jpg",
+    "skills": ["Algorithms", "Deep Learning", "Computer Vision", "Human Learning"]
+  },
+  {
+    "id": 4,
+    "name": "Improving Deep Neural Networks",
+    "issuer": "DeepLearning.ai",
+    "date": "2023-07-13",
+    "expiryDate": null,
+    "credentialId": "9YVHW4C3VV7D",
+    "verificationUrl": "https://coursera.org/verify/9YVHW4C3VV7D",
+    "badge": "/assets/logos/deeplearning-logo.jpg",
+    "skills": ["Algorithms", "Mathematical Theory & Analysis", "Machine Learning Algorithms", "Computer Programming"]
+  },
+  {
+    "id": 5,
+    "name": "Deep Learning with PyTorch",
+    "issuer": "Coursera Project Network",
+    "date": "2023-8-25",
+    "expiryDate": null,
+    "credentialId": "T4P69YHVNKPM",
+    "verificationUrl": "https://coursera.org/verify/T4P69YHVNKPM",
+    "badge": "/assets/logos/courseraprojectnetwork-logo.png",
+    "skills": ["Object Detection", "Computer Vision"]
+  },
+  {
+    "id": 6,
+    "name": "Tools for Data Science",
+    "issuer": "IBM",
+    "date": "2024-04-01",
+    "expiryDate": null,
+    "credentialId": "5GKSBZWSQS4M",
+    "verificationUrl": "https://coursera.org/verify/5GKSBZWSQS4M",
+    "badge": "/assets/logos/ibm-logo.png",
+    "skills": ["Python", "R", "SQL", "Big Data Tools"]
+  },
+  {
+    "id": 7,
+    "name": "What is Data Science?",
+    "issuer": "IBM",
+    "date": "2024-05-16",
+    "expiryDate": null,
+    "credentialId": "5VXEWCTHL456",
+    "verificationUrl": "https://coursera.org/verify/5VXEWCTHL456",
+    "badge": "/assets/logos/ibm-logo.png",
+    "skills": ["Data Science", "Deep Learning", "Big Data", "Machine Learning"]
+  }
+  
+
+]

@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://aliasgher5252.github.io/sitemap.xml
+
+# Allow access to data files
+Allow: /data/
+Allow: /assets/
+
+# Disallow source files
+Disallow: /src/
+Disallow: *.jsx
+Disallow: *.js.map
