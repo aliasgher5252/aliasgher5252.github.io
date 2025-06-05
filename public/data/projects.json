@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "title": "AquaGuard",
+    "description": "Developed an autonomous rescue drone with real-time computer vision on Jetson Nano, capable of identifying and assisting individuals in distress near water.",
+    "longDescription": "I contributed in the development of an autonomous rescue drone system that utilizes real-time computer vision for life-saving operations. Built on the Jetson Nano platform, the drone performs low-latency edge inference to detect and classify individuals as drowning, swimming, or on land. The system automatically aligns with the person in distress and deploys a rescue payload with precision. I designed the full AI pipeline, including model training, optimization, and seamless integration with UAV control systems. Emphasis was placed on real-time performance and robustness in uncontrolled outdoor environments. The drone was rigorously tested in real-world scenarios, validating its effectiveness in actual emergency situations. The platform was further extended to support autonomous medical supply delivery, showcasing its versatility beyond aquatic rescues.",
+    "technologies": ["Python", "ArduPilot", "UAV Avionics", "Ultralytics", "Pymavlink", "Jetson Nano", "TensorRT", "Mechanical Design"],
+    "category": "Computer Vision",
+    "featured": true,    
+    "images": [
+      "/assets/images/AquaGuard/image1.png"
+    ],
+    "videos": [
+      "/assets/videos/AquaGuard/video1.mp4",
+      "/assets/videos/AquaGuard/video2.mp4"
+    ],
+    "links": {
+    },
+    "status": "Completed",
+    "date": "2024-05-01",
+    "duration": "18 months",
+    "team": "8 Members",
+    "highlights": [
+      "Real-time computer vision with edge inference on NVIDIA Jetson Nano",
+      "Autonomous detection, classification, and alignment with individuals in distress",
+      "Full-stack AI pipeline design and integration with UAV systems",
+      "Successfully tested in live scenarios and adapted for medical supply delivery"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "LeadGen",
+    "description": "Built a multi-agent system using OpenAI Agents SDK to automate lead qualification, onboarding, and CRM updates via WhatsApp using a Flask backend.",
+    "longDescription": "I developed a multi-agent system utilizing LLMs, where four specialized agents operated under a supervisor agent to manage and qualify inbound leads. Each agent was responsible for gathering specific information—such as basic details, business context, future goals, and interest in vendor onboarding, affiliate partnerships, or mentorship opportunities. The backend was implemented using Flask with a lightweight SQLite database and integrated with the WhatsApp Cloud API to process webhook messages and send context-aware responses through a seamless agentic workflow. The system also included custom tools that allowed agents to push lead data into CRMs like Pipedrive or GoHighLevel and dynamically update lead stages based on conversation outcomes. This approach enabled efficient, automated handling of diverse lead types with minimal human intervention, improving both speed and accuracy of engagement. \n Disclaimer: Project's IP belongs to https://sketricsolutions.com",
+    "technologies": ["Python", "Flask", "OpenAI", "", "WhatsApp Cloud API", "SQLite"],
+    "category": "Generative AI",
+    "featured": true,
+    "images": [
+      "/assets/images/LeadGen/image1.png",
+      "/assets/images/LeadGen/image2.png"
+    ],
+    "videos": [],
+    "links": {},
+    "status": "Completed",
+    "date": "2025-05-20",
+    "duration": "1 months",
+    "team": "Sketric Solutions",
+    "highlights": [
+      "Multi-agent architecture with supervisor coordination using OpenAI Agents S",
+      "Flask backend with SQLite and WhatsApp Cloud API integrationn",
+      "Automated lead qualification, onboarding, and CRM syncing",
+      "Dynamic lead stage updates across platforms like Pipedrive and GoHighLevel"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Intruder AI",
+    "description": "Developed a smart intruder detection system using CCTV and edge AI on Raspberry Pi 5 to identify and alert against unauthorized wall-scaling entries.",
+    "longDescription": "I built an intelligent intruder detection system that uses CCTV footage to identify unauthorized entries by individuals scaling walls—a common method of breaking into homes. Unlike conventional motion detection, this system distinguishes between safe entry through the gate and suspicious activity like wall climbing. The application runs on a Raspberry Pi 5, where I deployed a quantized computer vision model optimized for real-time inference, achieving up to 12 FPS. When an intruder is detected, the system automatically sends an alert to the homeowner via WhatsApp, enabling immediate awareness and response. This low-cost, high-efficiency solution offers a layer of proactive home security without the need for expensive infrastructure. The system was designed with privacy and performance in mind, making it ideal for residential deployment.",
+    "technologies": ["Python", "Edge Optimization", "Ultralytics", "OpenCV"],
+    "category": "Computer Vision",
+    "featured": false,
+    "images": [
+      "/assets/images/IntruderAI/image1.png"
+    ],
+    "videos": [
+      "/assets/videos/IntruderAI/video1.mp4"
+    ],
+    "links": {
+    },
+    "status": "Completed",
+    "date": "2025-02-01",
+    "duration": "7 days",
+    "team": "Solo",
+    "highlights": [
+      "Wall-scaling intruder detection using CCTV and edge AI",
+      "Deployed on Raspberry Pi 5 with quantized model at 12 FPS",
+      "Differentiates between safe gate entry and unauthorized wall access",
+      "Real-time WhatsApp alerts for immediate user notification"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Visualizer AI",
+    "description": "Developed fast, high-accuracy algorithms for computing perspective transforms in indoor scenes using semantic scene understanding.",
+    "longDescription": "I designed and implemented advanced algorithms to compute perspective transforms of structural elements—such as walls, floors, and countertops—in 2D indoor images. These algorithms leverage semantic scene understanding to interpret and localize key planar surfaces with high accuracy. Despite being built from scratch, the solution matched the performance of industry benchmarks that had been under development for over five years. Notably, my implementation achieved a 3x speed improvement, making it highly suitable for real-time applications like interior modeling, AR, and robotics. The approach was optimized for both precision and efficiency, balancing computational cost with semantic depth. This project demonstrates a strong ability to innovate and compete at a production-grade level in computer vision. \n Disclaimer: Project's IP belongs to https://sketricsolutions.com",
+    "technologies": ["Python", "Ultralytics", "OpenCV", "Pillow"],
+    "category": "Computer Vision",
+    "featured": false,
+    "images": [
+      "/assets/images/VisualizerAI/image1.png",
+      "/assets/images/VisualizerAI/image2.png", 
+      "/assets/images/VisualizerAI/image3.png",
+      "/assets/images/VisualizerAI/image4.png"
+    ],
+    "videos": [],
+    "links": {},
+    "status": "Completed",
+    "date": "2025-02-01",
+    "duration": "7 days",
+    "team": "Sketric Solutions",
+    "highlights": [
+      "Perspective transform computation using semantic scene understanding",
+      "3x faster than industry-standard solutions with comparable accuracy",
+      "Applied to key surfaces: walls, floors, and countertops",
+      "Ideal for real-time applications in AR, robotics, and spatial design"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Welding AI",
+    "description": "Developed a real-time computer vision pipeline using SAM 2 to segment and track laser-induced welding line patterns with 90% accuracy.",
+    "longDescription": "I implemented a computer vision system to accurately segment and track line patterns from a specialized laser-illuminated welding camera. The core pipeline began with advanced image processing techniques to generate precise binary masks representing the laser lines. From these masks, a pseudo algorithm was used to extract critical keypoints, which were then input into SAM 2 to enable robust object tracking. This hybrid approach combined traditional image processing with modern segmentation models, optimizing both accuracy and speed. The system successfully identified and differentiated leading and trailing edges of the patterns, achieving 90% accuracy. Running at 13 FPS, the solution supports near real-time analysis, making it practical for industrial welding environments where precision and speed are crucial. \n Disclaimer: Project's IP belongs to https://sketricsolutions.com",
+    "technologies": ["Python", "Ultralytics", "OpenCV", "Semantic Segementation", "Image Processing"],
+    "category": "Computer Vision",
+    "featured": false,
+    "images": [
+      "/assets/images/WeldingAI/image1.png"
+    ],
+    "videos": [
+      "/assets/videos/WeldingAI/video1.mp4"
+    ],
+    "links": {},
+    "status": "Completed",
+    "date": "2024-08-01",
+    "duration": "1 months",
+    "team": "Sketric Solutions",
+    "highlights": [
+      "Combined image processing and SAM 2 for dynamic segmentation and tracking",
+      "3Custom keypoint extraction algorithm from binary masks",
+      "Accurate detection of leading and trailing laser pattern edges (90% accuracy)",
+      "Achieved 13 FPS, enabling near real-time industrial deployment"
+    ]
+  },
+    {
+    "id": 6,
+    "title": "German LPR",
+    "description": "Built a high-accuracy license plate recognition system using TensorFlow Lite and Parseq OCR tailored for German plates.",
+    "longDescription": "I developed a license plate recognition (LPR) system optimized for German license plates, combining TensorFlow Lite for real-time object detection and Parseq OCR for accurate text recognition. The system was designed to be lightweight and deployable on edge devices, ensuring both performance and portability. It achieved a detection accuracy of 99.9%, reliably identifying license plates under various lighting and angle conditions. The OCR module reached a recognition accuracy of 97.44%, demonstrating robustness against font variation and partial occlusions. The pipeline was fine-tuned for speed and reliability, making it suitable for applications in traffic monitoring, parking systems, and automated tolling. This project reflects a strong integration of model optimization and applied computer vision. \n Disclaimer: Project's IP belongs to https://sketricsolutions.com",
+    "technologies": ["Python", "Parseq OCR", "OpenCV", "Object Detection"],
+    "category": "Computer Vision",
+    "featured": false,
+    "images": [
+      "/assets/images/GermanLPR/image1.png",
+      "/assets/images/GermanLPR/image2.png"
+    ],
+    "videos": [],
+    "links": {},
+    "status": "Completed",
+    "date": "2024-03-01",
+    "duration": "1 months",
+    "team": "Sketric Solutions",
+    "highlights": [
+      "99.9% detection and 97.44% recognition accuracy on German plates",
+      "TensorFlow Lite for efficient object detection on edge devices",
+      "Parseq OCR integration for high-accuracy text recognition",
+      "Designed for real-world deployment in transportation systems"
+    ]
+  }
+
+
+]
