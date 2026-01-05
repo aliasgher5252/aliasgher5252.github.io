@@ -1,56 +1,57 @@
 /* Education Section Styles */
 .education {
-  padding: 6rem 0;
-  background: var(--color-card-background);
+  padding: 4rem 0;
+  background: var(--color-background);
   position: relative;
 }
 
 .education .container {
-  max-width: 1200px;
+  max-width: 1140px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 24px;
 }
 
 .education .section-header {
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
 }
 
 .education .section-title {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   font-weight: 700;
   color: var(--color-text-primary);
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 .education .section-subtitle {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: var(--color-text-secondary);
-  max-width: 600px;
+  max-width: 550px;
   margin: 0 auto;
   line-height: 1.6;
 }
 
 .education-timeline {
   position: relative;
-  margin: 2rem 0;
+  margin: 1.5rem 0;
 }
 
 .education-card {
   display: flex;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   position: relative;
-  background: var(--color-background);
-  border-radius: 12px;
-  padding: 2rem;
+  background: var(--color-card-background);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
   box-shadow: var(--shadow-card);
   border: 1px solid var(--color-border);
-  transition: all 0.3s ease;
+  transition: all var(--transition-normal);
 }
 
 .education-card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-3px);
   box-shadow: var(--shadow-card-hover);
+  border-color: var(--color-accent);
 }
 
 .education-timeline-dot {

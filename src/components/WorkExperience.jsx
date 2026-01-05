@@ -51,8 +51,11 @@ const WorkExperience = () => {
               />
             )}
             <div className="work-job-details">
-              <h3>{job.title}</h3>
-              <p className="work-company-name">{job.company}</p>
+              <h3>{job.position}</h3>
+              <div className="work-company-row">
+                <p className="work-company-name">{job.company}</p>
+                {job.type && <span className="work-type-badge">{job.type}</span>}
+              </div>
             </div>
           </div>
           
@@ -74,11 +77,10 @@ const WorkExperience = () => {
           <p>{job.description}</p>
         </div>
 
-        {job.responsibilities && job.responsibilities.length > 0 && (
-          <div className="work-achievements">
-            <h4>Key Responsibilities</h4>
+        {job.highlights && job.highlights.length > 0 && (
+          <div className="work-highlights">
             <ul>
-              {job.responsibilities.map((responsibility, idx) => (
+              {job.highlights.map((highlight, idx) => (
                 <motion.li
                   key={idx}
                   initial={{ opacity: 0, x: -20 }}
@@ -86,26 +88,7 @@ const WorkExperience = () => {
                   transition={{ delay: idx * 0.1 }}
                   viewport={{ once: true }}
                 >
-                  {responsibility}
-                </motion.li>
-              ))}
-            </ul>
-          </div>
-        )}
-
-        {job.achievements && job.achievements.length > 0 && (
-          <div className="work-achievements">
-            <h4>Key Achievements</h4>
-            <ul>
-              {job.achievements.map((achievement, idx) => (
-                <motion.li
-                  key={idx}
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ delay: idx * 0.1 }}
-                  viewport={{ once: true }}
-                >
-                  {achievement}
+                  {highlight}
                 </motion.li>
               ))}
             </ul>

@@ -1,56 +1,57 @@
 /* Work Experience Section Styles */
 .work-experience {
-  padding: 6rem 0;
-  background: var(--color-background);
+  padding: 4rem 0;
+  background: var(--color-surface);
   position: relative;
 }
 
 .work-experience .container {
-  max-width: 1200px;
+  max-width: 1140px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 24px;
 }
 
 .work-experience .section-header {
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
 }
 
 .work-experience .section-title {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   font-weight: 700;
   color: var(--color-text-primary);
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 .work-experience .section-subtitle {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: var(--color-text-secondary);
-  max-width: 600px;
+  max-width: 550px;
   margin: 0 auto;
   line-height: 1.6;
 }
 
 .work-timeline {
   position: relative;
-  margin: 2rem 0;
+  margin: 1.5rem 0;
 }
 
 .work-experience-card {
   display: flex;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   position: relative;
   background: var(--color-card-background);
-  border-radius: 12px;
-  padding: 2rem;
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
   box-shadow: var(--shadow-card);
   border: 1px solid var(--color-border);
-  transition: all 0.3s ease;
+  transition: all var(--transition-normal);
 }
 
 .work-experience-card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-3px);
   box-shadow: var(--shadow-card-hover);
+  border-color: var(--color-primary);
 }
 
 .work-timeline-dot {
@@ -110,10 +111,27 @@
   margin-bottom: 0.25rem;
 }
 
+.work-company-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
 .work-company-name {
   font-size: 1.1rem;
   color: var(--color-primary);
   font-weight: 500;
+}
+
+.work-type-badge {
+  background: var(--color-surface-alt);
+  color: var(--color-text-secondary);
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border: 1px solid var(--color-border);
 }
 
 .work-job-meta {
@@ -147,23 +165,16 @@
   margin-bottom: 1rem;
 }
 
-.work-achievements {
+.work-highlights {
   margin-bottom: 1.5rem;
 }
 
-.work-achievements h4 {
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--color-text-primary);
-  margin-bottom: 0.75rem;
-}
-
-.work-achievements ul {
+.work-highlights ul {
   list-style: none;
   padding: 0;
 }
 
-.work-achievements li {
+.work-highlights li {
   position: relative;
   padding-left: 1.5rem;
   margin-bottom: 0.5rem;
@@ -171,7 +182,7 @@
   line-height: 1.5;
 }
 
-.work-achievements li::before {
+.work-highlights li::before {
   content: "▸";
   position: absolute;
   left: 0;

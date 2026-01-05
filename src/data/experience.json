@@ -10,18 +10,16 @@
     "endDate": null,
     "current": true,
     "description": "Implemented ML pipelines for various projects including Computer Vision, Generative AI, AI Chatbots, NLP.",
-    "responsibilities": [
+    "highlights": [
       "Engineered machine learning models for tasks including detection, segmentation, and optical character recognition",
       "Developed scalable backend infrastructures using Flask and Django with sqllite and NoSql Databases",
       "Designed MLOps pipelines using MLflow to track ML model performance and manage life-cycle",
-      "Led end-to-end development of Generative AI features, from prompt engineering to model deployment and optimization. "
-    ],
-    "technologies": ["Python", "Docker", "AWS", "Django", "Flask", "OpenCV", "Ultralytics", "OpenAI", "LangChain", "Pillow"],
-    "achievements": [
+      "Led end-to-end development of Generative AI features, from prompt engineering to model deployment and optimization",
       "Built the ML pipeline of company's first Generative AI based micro SaaS product Resumes Ranker using OpenAI and AWS",
       "Conducted comprehensive error analysis to identify and resolve dataset issues, to enhance model accuracy",
       "Developed features to connect external platforms like WhatsApp, Wordpress to our SaaS platform SketricGen and getting it officially approved"
     ],
+    "technologies": ["Python", "Docker", "AWS", "Django", "Flask", "OpenCV", "Ultralytics", "OpenAI", "LangChain", "Pillow"],
     "companyLogo": "/assets/logos/sketricsolutions-logo.jfif",
     "companyWebsite": "https://sketricsolutions.com"
   },
@@ -36,14 +34,12 @@
     "endDate": "2023-12-31",
     "current": false,
     "description": "Researched on maximizing data rates of energy harvesting devices in CR-NOMA networks using deep reinforcement learning (DRL)",
-    "responsibilities": [
+    "highlights": [
       "Solved a continous action spaced optimization problem using DRL and convex optimization",
-      "Implemented five major DRL algorithms including DDPG, PER-DDPG, CER-DDBG, PPO, and TD3 and analyzed their performance and convergence."
-    ],
-    "technologies": ["Convex Optimization", "Pytorch", "Python", "Matlab", "Academic Writing", "Overleaf", "LaTeX"],
-    "achievements": [
+      "Implemented five major DRL algorithms including DDPG, PER-DDPG, CER-DDBG, PPO, and TD3 and analyzed their performance and convergence",
       "A. A. Mohammed, M. W. Baig, M. A. Sohail, S. A. Ullah, H. Jung and S. A. Hassan, \"Navigating Boundaries in Quantifying Robustness: A DRL Expedition for Non-Linear Energy Harvesting IoT Networks,\" in IEEE Communications Letters, doi: 10.1109/LCOMM.2024.3451702."
     ],
+    "technologies": ["Convex Optimization", "Pytorch", "Python", "Matlab", "Academic Writing", "Overleaf", "LaTeX"],
     "companyLogo": "/assets/logos/ipt-logo.jfif",
     "companyWebsite": "https://ipt.seecs.nust.edu.pk/"
   }
